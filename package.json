@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-big-endian",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Check if an environment is big endian.",
   "license": "Apache-2.0",
   "author": {
