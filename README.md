@@ -123,6 +123,22 @@ $ is-big-endian
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-little-endian`][@stdlib/assert/is-little-endian]: check if an environment is little endian.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -179,6 +195,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-big-endian/main/LICENSE
 
 [endianness]: http://en.wikipedia.org/wiki/Endianness
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-little-endian]: https://github.com/stdlib-js/assert-is-little-endian
+
+<!-- </related-links> -->
 
 </section>
 
