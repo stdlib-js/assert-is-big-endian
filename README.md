@@ -217,7 +217,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-big-endian/main/LICENSE
 
-[endianness]: http://en.wikipedia.org/wiki/Endianness
+[endianness]: https://en.wikipedia.org/wiki/Endianness
 
 <!-- <related-links> -->
 
