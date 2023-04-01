@@ -24,17 +24,68 @@ limitations under the License.
 
 > Check if an environment is [big endian][endianness].
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/assert-is-big-endian
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+</section>
 
+<section class="usage">
+
+## Usage
+
+```javascript
+var IS_BIG_ENDIAN = require( '@stdlib/assert-is-big-endian' );
+```
+
+#### IS_BIG_ENDIAN
+
+`Boolean` indicating if an environment is [big endian][endianness].
+
+```javascript
+var bool = IS_BIG_ENDIAN;
+// returns <boolean>
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+## Examples
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var IS_BIG_ENDIAN = require( '@stdlib/assert-is-big-endian' );
+
+console.log( IS_BIG_ENDIAN );
+// => <boolean>
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -52,7 +103,7 @@ npm install -g @stdlib/assert-is-big-endian-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: is-big-endian [options]
@@ -69,7 +120,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ is-big-endian
@@ -88,9 +139,10 @@ $ is-big-endian
 
 <section class="related">
 
+* * *
+
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert-is-big-endian`][@stdlib/assert-is-big-endian]</span><span class="delimiter">: </span><span class="description">check if an environment is big endian.</span>
 -   <span class="package-name">[`@stdlib/assert-is-little-endian`][@stdlib/assert/is-little-endian]</span><span class="delimiter">: </span><span class="description">check if an environment is little endian.</span>
 
 </section>
@@ -110,7 +162,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -133,8 +185,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-big-endian-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/assert-is-big-endian-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-big-endian.svg
+[npm-url]: https://npmjs.org/package/@stdlib/assert-is-big-endian
 
 [test-image]: https://github.com/stdlib-js/assert-is-big-endian/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/assert-is-big-endian/actions/workflows/test.yml?query=branch:main
@@ -150,7 +202,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
