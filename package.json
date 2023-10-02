@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/assert-is-big-endian-cli",
+  "name": "@stdlib/assert-is-big-endian",
   "version": "0.1.0",
   "description": "Check if an environment is big endian.",
   "license": "Apache-2.0",
@@ -16,6 +16,19 @@
   "bin": {
     "is-big-endian": "./bin/cli"
   },
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -25,9 +38,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-uint16": "^0.1.0",
+    "@stdlib/array-uint8": "^0.1.0",
     "@stdlib/cli-ctor": "^0.1.0",
     "@stdlib/fs-read-file": "^0.1.0",
-    "@stdlib/assert-is-big-endian": "0.1.0"
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.1.0",
@@ -38,6 +53,21 @@
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdassert",
