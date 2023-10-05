@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,48 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var Uint8Array = require( '@stdlib/array-uint8' );
-var IS_BIG_ENDIAN = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a boolean', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof IS_BIG_ENDIAN, 'boolean', 'main export is a boolean' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
-});
-
-tape( 'the boolean is `true` if an environment is big endian', function test( t ) {
-	var IS_BIG_ENDIAN = proxyquire( './../dist/main.js', {
-		'./ctors.js': {
-			'uint8': Foo
-		}
-	});
-
-	t.equal( IS_BIG_ENDIAN, true, 'is big endian' );
-
-	t.end();
-
-	// Mock big endian byte order, where least significant bits come last...
-	function Foo() {
-		return new Uint8Array( [ 18, 52 ] );
-	}
-});
-
-tape( 'the boolean is `false` if an environment is not big endian (e.g., little endian)', function test( t ) {
-	var IS_BIG_ENDIAN = proxyquire( './../dist/main.js', {
-		'./ctors.js': {
-			'uint8': Foo
-		}
-	});
-
-	t.equal( IS_BIG_ENDIAN, false, 'is not big endian' );
-	t.end();
-
-	// Mock big endian byte order, where most significant bits are last...
-	function Foo() {
-		return new Uint8Array( [ 52, 18 ] );
-	}
 });
