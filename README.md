@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_BIG_ENDIAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-big-endian@esm/index.mjs';
+import IS_BIG_ENDIAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-big-endian@v0.1.1-esm/index.mjs';
 ```
 
 #### IS_BIG_ENDIAN
@@ -70,7 +70,7 @@ var bool = IS_BIG_ENDIAN;
 <body>
 <script type="module">
 
-import IS_BIG_ENDIAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-big-endian@esm/index.mjs';
+import IS_BIG_ENDIAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-big-endian@v0.1.1-esm/index.mjs';
 
 console.log( IS_BIG_ENDIAN );
 // => <boolean>
