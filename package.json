@@ -38,8 +38,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-uint16": "^0.2.1",
-    "@stdlib/array-uint8": "^0.2.1",
+    "@stdlib/array-uint16": "^0.2.2",
+    "@stdlib/array-uint8": "^0.2.2",
     "@stdlib/cli-ctor": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2"
   },
