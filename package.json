@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-big-endian",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Check if an environment is big endian.",
   "license": "Apache-2.0",
   "author": {
@@ -40,13 +40,13 @@
   "dependencies": {
     "@stdlib/array-uint16": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
-    "@stdlib/cli-ctor": "^0.2.2",
-    "@stdlib/fs-read-file": "^0.2.2"
+    "@stdlib/cli-ctor": "^0.2.3",
+    "@stdlib/fs-read-file": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.2.2",
-    "@stdlib/assert-is-windows": "^0.2.2",
-    "@stdlib/process-exec-path": "^0.2.2",
+    "@stdlib/assert-is-browser": "^0.2.3",
+    "@stdlib/assert-is-windows": "^0.2.3",
+    "@stdlib/process-exec-path": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
